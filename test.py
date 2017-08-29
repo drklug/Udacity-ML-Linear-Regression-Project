@@ -141,5 +141,6 @@ class LinearRegressionTestCase(unittest.TestCase):
                 loss = np.mean((Ax - b)**2)
                 self.assertTrue(loss<0.01,"Regression result isn't good enough")
 
+
 if __name__ == '__main__':
     unittest.main()
